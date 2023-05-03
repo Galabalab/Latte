@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latte cafe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@700&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main">
+        <div class="main__inner">
+            
+         <div class="menu">
+            <h1 class="main__title">
+                Menu
+            </h1>
+            <p class="main__text">We change our menu every season. Here is what we are currently dishing up.</p>
+            <div class="main__btns">
+                <button id="imgClickAndChange" onclick="myMenu1()" type="submit" class="button__menu">Food Menu</button>
+                <button id="imgClickAndChange" onclick="myMenu2()" type="submit" class="button__menu">Drinks Menu</button>
+                <button id="imgClickAndChange" onclick="myMenu3()" type="submit" class="button__menu">Takeaway Menu</button>
+            </div>
+         </div>
+
+         <div class="main__img">
+            <img class="menu__img" src="img/menu.jpg" alt="" id="menu1" >
+            <img class="menu__img" src="img/menu-2.jpg" style=" display: none;" alt="" id="menu2" >
+            <img class="menu__img" src="img/menu-3.jpg" style=" display: none;" alt="" id="menu3" >
+         </div>
+        
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
