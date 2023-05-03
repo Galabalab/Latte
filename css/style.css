@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'Inter', sans-serif;
+    background-color: #E9E9E3;
+}
+
+.main__title{
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 700;
+    padding-bottom: 17px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6F6F64;
+}
+
+.menu{
+    padding-right: 35px;
+}
+
+.main__text{
+    font-weight: 400;
+    font-size: 32px;
+    width: 558px;
+    line-height: 45px;
+    padding-bottom: 74px;
+    color: #6F6F64;
+}
+
+.menu__img{
+  width: 100%;
+}
+
+.main__inner{
+    display: flex;
+    padding-top: 120px;
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-left: 320px;
+    margin-right: 320px;
+    padding-bottom: 120px;
+}
+
+.button__menu{
+    margin-bottom: 17px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-family: 'Inter', sans-serif;
+    width: 531px;
+    border: 2px solid #6F6F64;
+    color: #6F6F64;
+    cursor: pointer;
+}
+
+.button__menu:hover{
+    background-color: #6F6F64; 
+    color: #FFFFFF;
+}
+
+.button__menu:focus{
+    background-color: #6F6F64; 
+    color: #FFFFFF;
+}
+
+.main__btns{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:1634px) {
+
+    .main__text{
+        font-weight: 400;
+        font-size: 15px;
+        width: 300px;
+        line-height: 45px;
+        padding-bottom: 74px;
+        color: #6F6F64;
+    }
+
+    .button__menu{
+        margin-bottom: 17px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        font-family: 'Inter', sans-serif;
+        width: 280px;
+        font-size: 15px;
+        border: 2px solid #6F6F64;
+        color: #6F6F64;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width:1326px){
+
+    .main__text{
+        font-weight: 400;
+        font-size: 15px;
+        width: 280px;
+        line-height: 45px;
+        padding-bottom: 74px;
+        color: #6F6F64;
+    }
+    .button__menu{
+        margin-bottom: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: 'Inter', sans-serif;
+        width: 260px;
+        font-size: 15px;
+        border: 2px solid #6F6F64;
+        color: #6F6F64;
+        cursor: pointer;
+    }
+
+}
